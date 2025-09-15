@@ -1,0 +1,10 @@
+Write a java program to accept a character from the user and print the character
+
+import java.util.Scanner;
+public class CharacterInput {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        char inputChar = scanner.next().charAt(0);
+        System.out.println(inputChar);
+    }
+}
