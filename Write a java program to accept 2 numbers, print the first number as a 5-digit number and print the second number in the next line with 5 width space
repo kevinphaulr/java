@@ -1,0 +1,12 @@
+Write a java program to accept 2 numbers, print the first number as a 5-digit number and print the second number in the next line with 5 width space
+
+import java.util.Scanner;
+public class FormatNumbers {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        System.out.printf("%05d\n",a);
+        System.out.printf("%5d\n",b);
+    }
+}
