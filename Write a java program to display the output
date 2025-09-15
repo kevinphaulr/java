@@ -1,0 +1,8 @@
+Write a java program to display the output
+
+public class Solution {
+
+    public static void main(String[] args) {
+        System.out.print("Let's learn 'C' together with MySlate team");
+    }
+}
