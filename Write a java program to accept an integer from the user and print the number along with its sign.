@@ -1,0 +1,14 @@
+Write a java program to accept an integer from the user and print the number along with its sign.
+
+import java.util.*;
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        if(a > 0){
+            System.out.println("+" + a);
+        }else if(a < 0){
+            System.out.println("" + a);
+        }
+    }
+}
