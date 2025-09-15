@@ -1,0 +1,9 @@
+Write a java program to display the value of PI accurate to 12 decimal places.
+
+public class Solution {
+    public static void main(String[] args) {
+        double a=3.142857142857;
+        System.out.print(a);
+    }
+        
+}
